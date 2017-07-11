@@ -1,0 +1,35 @@
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.thumbnail img{
+    flex: 0 1 auto;
+    width: 100%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 100px 10px 100px 10px;
+    grid-template-rows: auto 10px;
+}
+
+.section {
+    font: bolder 3em 'Gidugu', sans-serif;
+    text-align: center;
+}
+
+
+.a {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.b {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
